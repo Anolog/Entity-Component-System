@@ -1,0 +1,32 @@
+﻿Build started 5/18/2016 11:19:03 AM.
+     1>Project "F:\Game Programming II\Socketing\Socketing\Socketing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Programming\Microsoft Visual Studio 2013 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Socketing.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Programming\Microsoft Visual Studio 2013 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Socketing.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Component.cpp Damage.cpp Description.cpp Entity.cpp SideEffect.cpp Socketing.cpp
+         Socketing.cpp
+     1>f:\game programming ii\socketing\socketing\socketing.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\game programming ii\socketing\socketing\socketing.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\game programming ii\socketing\socketing\socketing.cpp(271): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\game programming ii\socketing\socketing\socketing.cpp(288): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\game programming ii\socketing\socketing\socketing.cpp(295): warning C4018: '<' : signed/unsigned mismatch
+         SideEffect.cpp
+         Entity.cpp
+         Description.cpp
+         Damage.cpp
+         Component.cpp
+         Generating Code...
+       Link:
+         E:\Programming\Microsoft Visual Studio 2013 Ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Game Programming II\Socketing\Debug\Socketing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Game Programming II\Socketing\Debug\Socketing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Game Programming II\Socketing\Debug\Socketing.lib" /MACHINE:X86 Debug\Component.obj
+         Debug\Damage.obj
+         Debug\Description.obj
+         Debug\Entity.obj
+         Debug\SideEffect.obj
+         Debug\Socketing.obj
+         Debug\stdafx.obj
+         Socketing.vcxproj -> F:\Game Programming II\Socketing\Debug\Socketing.exe
+     1>Done Building Project "F:\Game Programming II\Socketing\Socketing\Socketing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.99
